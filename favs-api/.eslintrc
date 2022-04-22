@@ -1,0 +1,19 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "airbnb-base",
+    "prettier",
+    "plugin:node/recommended",
+    "eslint:recommended"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "node/no-unpublished-require": "off",
+    "no-underscore-dangle": "off"
+  }
+}
